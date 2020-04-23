@@ -41,9 +41,9 @@ func init() {
 			log.Print("Manually load .env failed... ")
 			log.Print("Call os.Setenv() to set env variables... ")
 			const GEOCODE_ENDPOINT = "https://maps.googleapis.com/maps/api/geocode/json"
-			const GEOCODE_APIKEY = "AIzaSyDwgpQAdn_dk199wlPkFRQLFGt47aqzxsA"
+			const GEOCODE_APIKEY = ""
 			const WEATHER_ENDPOINT = "https://api.darksky.net/forecast/"
-			const WEATHER_APIKEY = "e0b3d4b4a90801965ffcc68ee08781e2"
+			const WEATHER_APIKEY = ""
 
 			os.Setenv("GEOCODE_ENDPOINT", GEOCODE_ENDPOINT)
 			os.Setenv("GEOCODE_APIKEY", GEOCODE_APIKEY)
